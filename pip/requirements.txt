@@ -2,10 +2,6 @@ appdirs==1.4.4
     # via black
 astroid==2.4.2
     # via pylint
-atomicwrites==1.4.0 ; sys_platform == "win32"
-    # via
-    #   -r requirements.in
-    #   pytest
 attrs==20.3.0
     # via
     #   jsonschema
@@ -23,23 +19,18 @@ click==7.1.2
     #   black
     #   flask
     #   pip-tools
-colorama==0.4.4 ; sys_platform == "win32"
-    # via
-    #   -r requirements.in
-    #   pylint
-    #   pytest
 compare-locales==8.1.0
     # via -r requirements.in
 decorator==4.4.2
     # via -r requirements.in
 distro==1.5.0
     # via -r requirements.in
-flask-cors==3.0.10
-    # via -r requirements.in
 flask==1.1.2
     # via
     #   -r requirements.in
     #   flask-cors
+flask-cors==3.0.10
+    # via -r requirements.in
 fluent.syntax==0.18.1
     # via
     #   -r requirements.in
@@ -68,13 +59,13 @@ mccabe==0.6.1
     # via pylint
 mock==4.0.3
     # via -r requirements.in
+mypy==0.800
+    # via -r requirements.in
 mypy-extensions==0.4.3
     # via
     #   black
     #   mypy
 mypy-protobuf==2.1
-    # via -r requirements.in
-mypy==0.800
     # via -r requirements.in
 orjson==3.4.7
     # via -r requirements.in
@@ -90,8 +81,6 @@ protobuf==3.14.0
     # via
     #   -r requirements.in
     #   mypy-protobuf
-psutil==5.8.0 ; sys_platform == "win32"
-    # via -r requirements.in
 py==1.10.0
     # via pytest
 pylint==2.6.0
@@ -106,8 +95,6 @@ pytest==6.2.2
     # via -r requirements.in
 pytoml==0.1.21
     # via compare-locales
-pywin32==300 ; sys_platform == "win32"
-    # via -r requirements.in
 regex==2020.11.13
     # via black
 requests[socks]==2.25.1
@@ -148,13 +135,11 @@ waitress==2.0.0b1
     # via -r requirements.in
 werkzeug==1.0.1
     # via flask
-winrt==1.0.21033.1 ; sys_platform == "win32" and platform_release == "10"
-    # via -r requirements.in
 wrapt==1.12.1
     # via astroid
 
 # The following packages are considered to be unsafe in a requirements file:
-pip==21.0.1
+pip==21.1
     # via pip-tools
 setuptools==53.0.0
     # via jsonschema
