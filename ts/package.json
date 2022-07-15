@@ -38,7 +38,7 @@
         "rollup": "^2.32.1",
         "rollup-plugin-terser": "^7.0.2",
         "sass": "^1.32.6",
-        "svelte": "^3.28.0",
+        "svelte": "^3.49.0",
         "svelte-check": "^1.0.61",
         "svelte2tsx": "^0.1.133",
         "tslib": "^2.0.3",
